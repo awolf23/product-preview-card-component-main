@@ -157,7 +157,7 @@ h1{
   background-color: var(--clr-hover);
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 
   main {
     display: block;
@@ -189,6 +189,7 @@ h1{
   .btn-icon {
     width: 290px;
   }
+
 }
 
 
